@@ -1,7 +1,12 @@
 aid: rush-enterprises
-url: https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.rush-enterprises.com
+description: >-
+  Rush Enterprises is the largest network of commercial vehicle dealerships in North
+  America, operating Rush Truck Centers that sell new and used commercial vehicles,
+  parts, and service.
