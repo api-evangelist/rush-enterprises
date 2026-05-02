@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12",
+  "$id": "https://api-evangelist.github.io/rush-enterprises/json-schema/rush-enterprises-vehicle-schema.json",
+  "title": "Rush Enterprises Commercial Vehicle",
+  "description": "A commercial vehicle sold or serviced by Rush Truck Centers",
+  "type": "object",
+  "properties": {
+    "vehicleId": {
+      "type": "string",
+      "description": "Unique vehicle identifier"
+    },
+    "vin": {
+      "type": "string",
+      "description": "Vehicle Identification Number (17 characters)"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["new", "used"],
+      "description": "Vehicle condition"
+    },
+    "make": {
+      "type": "string",
+      "description": "Manufacturer (Peterbilt, International, Hino, etc.)"
+    },
+    "model": {
+      "type": "string",
+      "description": "Vehicle model"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Model year"
+    },
+    "category": {
+      "type": "string",
+      "description": "Vehicle category (semi-truck, medium-duty, etc.)"
+    },
+    "mileage": {
+      "type": "integer",
+      "description": "Odometer reading in miles"
+    },
+    "price": {
+      "type": "number",
+      "format": "double",
+      "description": "List price in USD"
+    },
+    "location": {
+      "type": "string",
+      "description": "Rush Truck Center location name"
+    }
+  },
+  "required": ["vehicleId", "type"]
+}

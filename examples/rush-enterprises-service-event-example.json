@@ -1,0 +1,17 @@
+{
+  "eventId": "SE-2026-003421",
+  "vehicleId": "RTC-2024-00456",
+  "vin": "1XPWD49X1ED215307",
+  "serviceType": "preventive_maintenance",
+  "status": "scheduled",
+  "location": {
+    "locationId": "RTC-HOU-001",
+    "name": "Rush Truck Center - Houston North",
+    "address": "12345 North Freeway",
+    "city": "Houston",
+    "state": "TX"
+  },
+  "scheduledDate": "2026-05-10T08:00:00Z",
+  "faultCodes": ["SPN 111 FMI 18", "SPN 3597 FMI 7"],
+  "notes": "Scheduled PM1 service - oil change, filter replacement, brake inspection"
+}

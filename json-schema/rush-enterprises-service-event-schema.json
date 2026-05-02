@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12",
+  "$id": "https://api-evangelist.github.io/rush-enterprises/json-schema/rush-enterprises-service-event-schema.json",
+  "title": "Rush Enterprises Service Event",
+  "description": "A service event for a commercial vehicle managed through RushCare Service Connect",
+  "type": "object",
+  "properties": {
+    "eventId": {
+      "type": "string",
+      "description": "Unique service event identifier"
+    },
+    "vehicleId": {
+      "type": "string",
+      "description": "Vehicle associated with this service event"
+    },
+    "vin": {
+      "type": "string",
+      "description": "Vehicle VIN"
+    },
+    "serviceType": {
+      "type": "string",
+      "enum": ["preventive_maintenance", "repair", "inspection", "emergency"],
+      "description": "Type of service"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["scheduled", "in_progress", "completed", "cancelled"],
+      "description": "Current service status"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "locationId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        }
+      }
+    },
+    "scheduledDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the service is scheduled"
+    },
+    "completedDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the service was completed"
+    },
+    "faultCodes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Telematics fault codes from Geotab"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Service notes or description"
+    }
+  },
+  "required": ["eventId", "vehicleId", "serviceType", "status"]
+}

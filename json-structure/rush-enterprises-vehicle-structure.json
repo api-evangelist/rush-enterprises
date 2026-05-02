@@ -1,0 +1,66 @@
+{
+  "title": "Rush Enterprises Commercial Vehicle",
+  "description": "Structure of a commercial vehicle at Rush Truck Centers",
+  "fields": [
+    {
+      "name": "vehicleId",
+      "type": "string",
+      "required": true,
+      "description": "Unique vehicle identifier"
+    },
+    {
+      "name": "vin",
+      "type": "string",
+      "required": false,
+      "description": "17-character Vehicle Identification Number"
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "required": true,
+      "description": "Condition: new or used"
+    },
+    {
+      "name": "make",
+      "type": "string",
+      "required": false,
+      "description": "Manufacturer (Peterbilt, International, Hino, Kenworth)"
+    },
+    {
+      "name": "model",
+      "type": "string",
+      "required": false,
+      "description": "Vehicle model name"
+    },
+    {
+      "name": "year",
+      "type": "integer",
+      "required": false,
+      "description": "Model year"
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "required": false,
+      "description": "Vehicle category (semi-truck, medium-duty, etc.)"
+    },
+    {
+      "name": "mileage",
+      "type": "integer",
+      "required": false,
+      "description": "Odometer reading in miles"
+    },
+    {
+      "name": "price",
+      "type": "number",
+      "required": false,
+      "description": "List price in USD"
+    },
+    {
+      "name": "location",
+      "type": "string",
+      "required": false,
+      "description": "Rush Truck Center location name"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+vocabulary:
+  name: Rush Enterprises Vocabulary
+  description: >-
+    Vocabulary and terminology for Rush Enterprises and its fleet technology
+    platforms including RushCare Service Connect, Parts Connect, and telematics
+    solutions powered by Geotab.
+  version: '2026-05-02'
+  terms:
+    - term: Rush Truck Center
+      definition: >-
+        One of more than 200 commercial vehicle dealership locations operated by
+        Rush Enterprises across the United States, offering sales, service, parts,
+        leasing, and fleet technology solutions for commercial vehicles.
+      tags:
+        - Dealership
+        - Locations
+    - term: RushCare
+      definition: >-
+        Rush Enterprises' suite of fleet technology and support programs including
+        Service Connect, Parts Connect, and telematics. Designed to reduce vehicle
+        downtime and streamline fleet operations.
+      tags:
+        - Fleet Management
+        - Technology
+    - term: RushCare Service Connect
+      definition: >-
+        A single portal integrated with OEMs (Peterbilt, International, Hino,
+        Cummins), third-party repair software (Decisiv), and telematics (Geotab).
+        Enables fleet managers to schedule service and view vehicle fault codes.
+      tags:
+        - Fleet Management
+        - Service Management
+    - term: RushCare Parts Connect
+      definition: >-
+        Rush Enterprises' technology platform for managing commercial vehicle parts
+        procurement and supply chain across Rush Truck Centers locations.
+      tags:
+        - Parts Management
+        - Supply Chain
+    - term: Telematics
+      definition: >-
+        Vehicle data monitoring and tracking technology powered by Geotab hardware.
+        Provides real-time fault codes, location, driver behavior data, and enables
+        proactive maintenance scheduling through RushCare Service Connect.
+      tags:
+        - IoT
+        - Telematics
+        - Vehicle Data
+    - term: Fault Code
+      definition: >-
+        A diagnostic code from a commercial vehicle's onboard computer (ECM) or
+        telematics system (Geotab) indicating a mechanical or electrical issue.
+        Format follows SPN (Suspect Parameter Number) and FMI (Failure Mode Indicator).
+      tags:
+        - Diagnostics
+        - Telematics
+    - term: Geotab
+      definition: >-
+        The telematics hardware and software platform used by Rush Enterprises to
+        provide fleet visibility, GPS tracking, and fault code monitoring. Geotab
+        offers an open SDK for third-party integration.
+      tags:
+        - Telematics
+        - IoT
+    - term: Preventive Maintenance (PM)
+      definition: >-
+        Scheduled maintenance services performed at regular intervals to prevent
+        breakdowns. PM1, PM2, etc. represent different maintenance levels with
+        specific inspection and replacement tasks.
+      tags:
+        - Fleet Management
+        - Maintenance
+    - term: Class 8 Truck
+      definition: >-
+        The heaviest category of commercial vehicles with a Gross Vehicle Weight
+        Rating (GVWR) of 33,001 lbs or more. Includes semi-trucks (tractor-trailers)
+        which represent the primary product sold at Rush Truck Centers.
+      tags:
+        - Commercial Vehicles
+    - term: Commercial Vehicle Industry
+      definition: >-
+        The sector encompassing manufacturers, dealers, and service providers for
+        trucks, buses, and other work vehicles. Rush Enterprises describes itself as
+        the "premier solutions provider" to this industry.
+      tags:
+        - Commercial Vehicles
+        - Transportation

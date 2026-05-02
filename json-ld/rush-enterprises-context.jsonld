@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "rush": "https://www.rushtruckcenters.com/vocab/",
+    "CommercialVehicle": {
+      "@id": "schema:Vehicle",
+      "@type": "@id"
+    },
+    "vehicleId": {
+      "@id": "schema:identifier",
+      "@type": "schema:Text"
+    },
+    "vin": {
+      "@id": "schema:vehicleIdentificationNumber",
+      "@type": "schema:Text"
+    },
+    "make": {
+      "@id": "schema:vehicleMake",
+      "@type": "schema:Text"
+    },
+    "model": {
+      "@id": "schema:model",
+      "@type": "schema:Text"
+    },
+    "year": {
+      "@id": "schema:modelDate",
+      "@type": "schema:Integer"
+    },
+    "mileage": {
+      "@id": "schema:mileageFromOdometer",
+      "@type": "schema:QuantitativeValue"
+    },
+    "price": {
+      "@id": "schema:price",
+      "@type": "schema:Number"
+    },
+    "ServiceEvent": {
+      "@id": "rush:ServiceEvent",
+      "@type": "@id"
+    },
+    "serviceType": {
+      "@id": "rush:serviceType",
+      "@type": "schema:Text"
+    },
+    "status": {
+      "@id": "schema:status",
+      "@type": "schema:Text"
+    },
+    "scheduledDate": {
+      "@id": "schema:startDate",
+      "@type": "schema:DateTime"
+    },
+    "completedDate": {
+      "@id": "schema:endDate",
+      "@type": "schema:DateTime"
+    },
+    "faultCodes": {
+      "@id": "rush:faultCodes",
+      "@container": "@list"
+    },
+    "Location": {
+      "@id": "schema:AutoRepair",
+      "@type": "@id"
+    },
+    "name": {
+      "@id": "schema:name",
+      "@type": "schema:Text"
+    },
+    "address": {
+      "@id": "schema:streetAddress",
+      "@type": "schema:Text"
+    },
+    "city": {
+      "@id": "schema:addressLocality",
+      "@type": "schema:Text"
+    },
+    "state": {
+      "@id": "schema:addressRegion",
+      "@type": "schema:Text"
+    }
+  }
+}
