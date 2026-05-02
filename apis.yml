@@ -85,12 +85,20 @@ common:
     url: https://rushcare.rushtruckcenters.com/
   - type: About
     url: https://www.rushenterprises.com/our-story
+  - type: Investors
+    url: https://investors.rushenterprises.com
   - type: Vocabulary
     url: >-
       https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/vocabulary/rush-enterprises-vocabulary.yml
   - type: JSONLDContext
     url: >-
       https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/json-ld/rush-enterprises-context.jsonld
+  - type: JSONSchema
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/json-schema/rush-enterprises-vehicle-schema.json
+  - type: JSONSchema
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/json-schema/rush-enterprises-service-event-schema.json
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

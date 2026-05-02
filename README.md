@@ -21,7 +21,7 @@ Rush Enterprises is the largest network of commercial vehicle dealerships in Nor
 
 ### RushCare Service Connect
 
-A technology platform providing a single portal integrated with OEMs, third-party repair software systems, and real-time telematics providers. Integrates with Peterbilt, International, Hino, Cummins, Decisiv, and Geotab to enable fleet managers to schedule service, view telematics faults, and manage vehicle maintenance.
+A technology platform providing a single portal integrated with OEMs (Peterbilt, International, Hino, Cummins), third-party repair software (Decisiv), and telematics (Geotab). Enables fleet managers to schedule service, view telematics faults, and manage vehicle maintenance across Rush Truck Centers locations.
 
 **Human URL:** [serviceconnect.rushcare.com](https://serviceconnect.rushcare.com/)
 
@@ -52,6 +52,7 @@ Fleet visibility and vehicle data monitoring powered by Geotab, the world's larg
 ### JSON Structure
 
 - [Commercial Vehicle](json-structure/rush-enterprises-vehicle-structure.json)
+- [Service Event](json-structure/rush-enterprises-service-event-structure.json)
 
 ### Examples
 
@@ -72,6 +73,7 @@ Fleet visibility and vehicle data monitoring powered by Geotab, the world's larg
 - [Rush Truck Centers](https://www.rushtruckcenters.com)
 - [RushCare Technology](https://rushcare.rushtruckcenters.com/)
 - [About](https://www.rushenterprises.com/our-story)
+- [Investors](https://investors.rushenterprises.com)
 
 ## Maintainers
 

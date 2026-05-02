@@ -1,0 +1,73 @@
+{
+  "title": "Rush Enterprises Service Event",
+  "description": "Structure of a commercial vehicle service event managed through RushCare Service Connect",
+  "fields": [
+    {
+      "name": "eventId",
+      "type": "string",
+      "required": true,
+      "description": "Unique service event identifier"
+    },
+    {
+      "name": "vehicleId",
+      "type": "string",
+      "required": true,
+      "description": "Vehicle associated with this service event"
+    },
+    {
+      "name": "vin",
+      "type": "string",
+      "required": false,
+      "description": "17-character Vehicle Identification Number"
+    },
+    {
+      "name": "serviceType",
+      "type": "string",
+      "required": true,
+      "description": "Type of service: preventive_maintenance, repair, inspection, emergency"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "description": "Current status: scheduled, in_progress, completed, cancelled"
+    },
+    {
+      "name": "location",
+      "type": "object",
+      "required": false,
+      "description": "Rush Truck Center location where service is performed",
+      "fields": [
+        {"name": "locationId", "type": "string"},
+        {"name": "name", "type": "string"},
+        {"name": "address", "type": "string"},
+        {"name": "city", "type": "string"},
+        {"name": "state", "type": "string"}
+      ]
+    },
+    {
+      "name": "scheduledDate",
+      "type": "string (date-time)",
+      "required": false,
+      "description": "When the service is scheduled (ISO 8601)"
+    },
+    {
+      "name": "completedDate",
+      "type": "string (date-time)",
+      "required": false,
+      "description": "When the service was completed (ISO 8601)"
+    },
+    {
+      "name": "faultCodes",
+      "type": "array of string",
+      "required": false,
+      "description": "Geotab telematics fault codes (SPN/FMI format)"
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "required": false,
+      "description": "Service notes or technician description"
+    }
+  ]
+}
