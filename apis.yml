@@ -77,6 +77,8 @@ apis:
       - type: Documentation
         url: https://www.rushtruckcenters.com/service/programs/telematics-solutions/hardware
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/rush-enterprises-inc
   - type: Website
     url: https://www.rushenterprises.com
   - type: Website
