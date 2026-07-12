@@ -78,6 +78,8 @@ apis:
       - type: Documentation
         url: https://www.rushtruckcenters.com/service/programs/telematics-solutions/hardware
 common:
+  - type: DomainSecurity
+    url: security/rush-enterprises-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/rush-enterprises-inc
   - type: Website
@@ -102,6 +104,8 @@ common:
   - type: JSONSchema
     url: >-
       https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/json-schema/rush-enterprises-service-event-schema.json
+  - type: Blog
+    url: https://www.rushtruckcenters.com/blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
